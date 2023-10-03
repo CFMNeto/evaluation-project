@@ -1,0 +1,34 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        margin-top: -450px;
+    }
+
+
+
+    .cards {
+        min-width: 100vw;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .circle {
+        margin-left: 30%;
+    }
+
+    .cards1 {
+        min-width: 100vw;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .attribution {
+        display: none;
+    }
+}
